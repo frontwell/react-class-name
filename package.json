@@ -1,7 +1,7 @@
 {
   "name": "@reactory/class-name",
   "version": "0.0.0-development",
-  "description": "",
+  "description": "Manageable, toggleable, conditional CSS classes with spread syntax.",
   "author": "Richard King <richrdkng@gmail.com> (www.richrdkng.com)",
   "license": "ISC",
   "homepage": "https://github.com/reactory/class-name#readme",
