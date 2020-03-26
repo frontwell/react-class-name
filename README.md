@@ -35,7 +35,7 @@
 </h3>
 
 <p align="center">
-  A small wrapper function around `@reactory/from-class` to manage CSS classes
+  A small wrapper function around <a href="https://www.npmjs.com/package/@reactory/from-class">@reactory/from-class</a> to manage CSS classes
   via the className attribute <b>using the ... spread syntax</b>.  
 </p>
 
