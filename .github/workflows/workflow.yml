@@ -21,6 +21,9 @@ jobs:
     - name: init
       run: npm ci
 
+    - name: lint
+      run: npm run lint
+
     - name: test
       run: npm test
 
