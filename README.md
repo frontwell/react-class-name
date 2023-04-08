@@ -37,7 +37,7 @@
 </h3>
 
 <p align="center">
-  A simple, lightweight JavaScript <b>utility function</b> for React to <b>easily manage CSS classes</b> via the <code>className</code> attribute.
+  A simple, lightweight JavaScript <b>utility function</b> for React <br/> to <b>easily manage CSS classes</b> via the <code>className</code> attribute.
 </p>
 
 ---
