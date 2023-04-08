@@ -1,7 +1,7 @@
+/** @type {import('jest').Config} */
 module.exports = {
-  transformIgnorePatterns: [
-    '/node_modules/(?!@reactory/from-class).+\\.js$'
-  ],
+  preset: 'ts-jest',
+  testEnvironment: 'node',
   coverageThreshold: {
     global: {
       branches: 100,
