@@ -62,11 +62,21 @@ describe('arrays', () => {
 
     expect(className([true && 'a', false && 'b', true && 'c'])).toBe('a c')
   })
+
+  test('deep arrays', () => {
+    expect(className([[['a']]])).toBe('a')
+  })
 })
 
 describe('objects', () => {
   test('called conditionally with plain objects', () => {
     expect(className({ a: true })).toBe('a')
     expect(className({ a: false })).toBeUndefined()
+  })
+})
+
+describe('functions', () => {
+  test('basic function', () => {
+    expect(className(() => 'a')).toBe('a')
   })
 })
