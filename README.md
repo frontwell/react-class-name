@@ -78,4 +78,4 @@ npm i @reactory/class-name
 <!--- References =============================================================================== -->
 
 <!--- URLs -->
-[url-license-doc]: https://github.com/reactory/class-name/blob/master/LICENSE
+[url-license-doc]: https://github.com/reactory/class-name/blob/main/LICENSE

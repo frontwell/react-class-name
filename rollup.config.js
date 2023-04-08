@@ -5,7 +5,7 @@ const banner = dedent`
   /*!
   * MIT License
   * Copyright (c) 2023 Richard King <richrdkng@gmail.com> (https://richrdkng.com)
-  * https://github.com/reactory/class-name/blob/master/LICENSE
+  * https://github.com/reactory/class-name/blob/main/LICENSE
   */
 `
 
