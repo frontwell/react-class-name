@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/reactory/class-name/compare/v1.0.1...v2.0.0) (2023-04-08)
+
+
+### Features
+
+* add flexible className parsing ([83ff94b](https://github.com/reactory/class-name/commit/83ff94b95e25f867f328df2f39a1f1bb6d52ef7d))
+
+
+### BREAKING CHANGES
+
+* Return the compiled string from the processed class inputs instead of the spread syntax className: string return value.
+
 ## [1.0.1](https://github.com/reactory/class-name/compare/v1.0.0...v1.0.1) (2020-03-26)
 
 
