@@ -25,7 +25,7 @@
   <!-- Commit style badge -->
   <a href="https://commitizen.github.io/cz-cli"><img src="https://img.shields.io/badge/Commit_Style-Conventional_Commits-FE5196.svg?style=flat-square&logo=conventionalcommits" alt="commit-style-badge"></a>
   <!-- Release workflow badge -->
-  <a href="https://semantic-release.gitbook.io/semantic-release"><img src="https://img.shields.io/badge/Workflow-semantic--release-e10079.svg?style=flat-square&logo=semantic-release" alt="release-workflow-badge"></a>  
+  <a href="https://semantic-release.gitbook.io/semantic-release"><img src="https://img.shields.io/badge/Release-semantic--release-e10079.svg?style=flat-square&logo=semantic-release" alt="release-workflow-badge"></a>  
   <!-- Contribution badge -->
   <a href="https://github.com/reactory/class-name/blob/master/.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-Welcome!-brightgreen.svg?style=flat-square&logo=git" alt="contribution-badge"></a>
 </p>
@@ -73,9 +73,9 @@ npm i @reactory/class-name
 
 ## :copyright: License
 
-[MIT][url-license-doc] @ [Richard King](https://www.richrdkng.com)
+[MIT][url-license-doc] @ [Richard King](https://richrdkng.com)
 
 <!--- References =============================================================================== -->
 
 <!--- URLs -->
-[url-license-doc]: https://github.com/reactory/class-name/blob/master/LICENSE.md
+[url-license-doc]: https://github.com/reactory/class-name/blob/master/LICENSE
