@@ -2,43 +2,42 @@
   @reactory/class-name
 </h1>
 
+<br />
+
 <!-- Badges - 1st row -->
 <p align="center">
   <!-- NPM badge -->
-  <a href="https://www.npmjs.com/package/@reactory/class-name"><img src="https://img.shields.io/npm/v/@reactory/class-name?color=brightgreen&style=flat-square" alt="release-badge"></a>
+  <a href="https://www.npmjs.com/package/@reactory/class-name"><img src="https://img.shields.io/npm/v/@reactory/class-name?color=brightgreen&style=flat-square&logo=npm" alt="release-badge"></a>
   <!-- CI badge -->
   <a href="https://github.com/reactory/class-name/actions?query=workflow%3ACI"><img src="https://github.com/reactory/class-name/workflows/CI/badge.svg?style=flat-square" alt="ci-badge"></a>
   <!-- Coverage badge -->
-  <a href="https://codecov.io/gh/reactory/class-name"><img src="https://img.shields.io/codecov/c/github/reactory/class-name?style=flat-square" alt="coverage-badge"></a>
+  <a href="https://codecov.io/gh/reactory/class-name"><img src="https://img.shields.io/codecov/c/github/reactory/class-name?style=flat-square&logo=coveralls" alt="coverage-badge"></a>
   <!-- Dependency badge -->
-  <a href="https://david-dm.org/reactory/class-name"><img src="https://img.shields.io/badge/dependabot-enabled-brightgreen.svg?style=flat-square" alt="dependency-badge"></a>
-  <!-- Documentation badge -->
-  <a href="https://github.com/reactory/class-name/blob/master/doc/API.md"><img src="https://inch-ci.org/github/reactory/class-name.svg?branch=master&style=flat-square" alt="documentation-badge"></a>
+  <a href="https://github.com/reactory/class-name/pulls?q=is%3Apr+is%3Aopen+label%3Asecurity"><img src="https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg?style=flat-square&logo=dependabot" alt="dependency-badge"></a>
+  <!-- License badge -->
+  <a href="https://github.com/reactory/class-name/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square&logo=github" alt="license-badge"></a>
 </p>
 
 <!-- Badges - 2nd row -->
 <p align="center">
   <!-- Code style badge -->
-  <a href="https://standardjs.com"><img src="https://img.shields.io/badge/style-standardjs-f1d300.svg?style=flat-square" alt="code-style-badge"></a>
+  <a href="https://standardjs.com"><img src="https://img.shields.io/badge/Code_Style-StandardJS-F3DF49.svg?style=flat-square&logo=standardjs" alt="code-style-badge"></a>
   <!-- Commit style badge -->
-  <a href="https://commitizen.github.io/cz-cli"><img src="https://img.shields.io/badge/commit-commitizen-fe7d37.svg?style=flat-square" alt="commit-style-badge"></a>
+  <a href="https://commitizen.github.io/cz-cli"><img src="https://img.shields.io/badge/Commit_Style-Conventional_Commits-FE5196.svg?style=flat-square&logo=conventionalcommits" alt="commit-style-badge"></a>
   <!-- Release workflow badge -->
-  <a href="https://semantic-release.gitbook.io/semantic-release"><img src="https://img.shields.io/badge/release-semantic--release-e10079.svg?style=flat-square" alt="release-workflow-badge"></a>
-  <!-- License badge -->
-  <a href="https://github.com/reactory/class-name/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/license-ISC-blue.svg?style=flat-square" alt="license-badge"></a>
+  <a href="https://semantic-release.gitbook.io/semantic-release"><img src="https://img.shields.io/badge/Workflow-semantic--release-e10079.svg?style=flat-square&logo=semantic-release" alt="release-workflow-badge"></a>  
   <!-- Contribution badge -->
-  <a href="https://github.com/reactory/class-name/blob/master/.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square" alt="contribution-badge"></a>
+  <a href="https://github.com/reactory/class-name/blob/master/.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-Welcome!-brightgreen.svg?style=flat-square&logo=git" alt="contribution-badge"></a>
 </p>
 
 ---
 
 <h3 align="center">
-  Manageable, toggleable, conditional CSS classes with spread syntax.
+  Easily manageable, toggleable, conditional CSS classes in React.
 </h3>
 
 <p align="center">
-  A small wrapper function around <a href="https://www.npmjs.com/package/@reactory/from-class">@reactory/from-class</a> to manage CSS classes
-  via the className attribute <b>using the ... spread syntax</b>.  
+  A simple JavaScript <b>utility function</b> for React to <b>easily manage CSS classes</b> via the className attribute.
 </p>
 
 ---
@@ -64,9 +63,9 @@
 
 ## :copyright: License
 
-[ISC][url-license-doc] @ [Richard King](https://www.richrdkng.com)
+[MIT][url-license-doc] @ [Richard King](https://www.richrdkng.com)
 
-  <!--- References ============================================================================ -->
+<!--- References =============================================================================== -->
 
-  <!--- URLs -->
-  [url-license-doc]: https://github.com/reactory/class-name/blob/master/LICENSE.md
+<!--- URLs -->
+[url-license-doc]: https://github.com/reactory/class-name/blob/master/LICENSE.md
