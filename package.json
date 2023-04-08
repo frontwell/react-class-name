@@ -36,12 +36,9 @@
   },
   "scripts": {
     "lint": "ts-standard --verbose | snazzy",
-    "lint:fix": "ts-standard --fix --verbose | snazzy",
     "test": "jest",
     "prep": "rm -rf .dist && mkdir .dist && cp LICENSE package.json README* .dist/",
-    "_build:src": "rollup -c",
-    "_build:types": "tsc -p tsconfig.types.json",
-    "build": "npm run _build:src && npm run _build:types"
+    "build": "rollup -c && tsc -p tsconfig.types.json"
   },
   "devDependencies": {
     "@rollup/plugin-typescript": "^11.1.0",
