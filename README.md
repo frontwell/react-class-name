@@ -11,7 +11,7 @@
   <!-- CI badge -->
   <a href="https://github.com/reactory/class-name/actions?query=workflow%3ACI"><img src="https://github.com/reactory/class-name/workflows/CI/badge.svg?style=flat-square" alt="ci-badge"></a>
   <!-- Coverage badge -->
-  <a href="https://codecov.io/gh/reactory/class-name"><img src="https://img.shields.io/codecov/c/github/reactory/class-name?style=flat-square&logo=coveralls" alt="coverage-badge"></a>
+  <a href="https://codecov.io/gh/reactory/class-name"><img src="https://img.shields.io/codecov/c/github/reactory/class-name?style=flat-square&logo=codecov" alt="coverage-badge"></a>
   <!-- Dependency badge -->
   <a href="https://github.com/reactory/class-name/pulls?q=is%3Apr+is%3Aopen+label%3Asecurity"><img src="https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg?style=flat-square&logo=dependabot" alt="dependency-badge"></a>
   <!-- License badge -->
@@ -33,18 +33,28 @@
 ---
 
 <h3 align="center">
-  Easily manageable, toggleable, conditional CSS classes in React.
+  Manageable, toggleable, conditional CSS classes in React.
 </h3>
 
 <p align="center">
-  A simple JavaScript <b>utility function</b> for React to <b>easily manage CSS classes</b> via the className attribute.
+  A simple, lightweight JavaScript <b>utility function</b> for React to <b>easily manage CSS classes</b> via the <code>className</code> attribute.
 </p>
 
 ---
 
 ## :thinking: Why?
 
+- 1
+- 2
+- 3
+- 4
+- 5
+
 ## :package: Installation
+
+```
+npm i @reactory/class-name
+```
 
 ## :coffee: Usage
 
