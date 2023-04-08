@@ -30,9 +30,12 @@ jobs:
 
     - name: upload coverage
       uses: codecov/codecov-action@v3
-      with:
-        fail_ci_if_error: true
-        verbose: true
+
+    - name: prepare
+      run: npm run prep
+
+    - name: release
+      run: npx --no-install semantic-release
 
     # --------------------------------------------------------------------------
 
