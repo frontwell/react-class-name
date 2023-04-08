@@ -1,4 +1,6 @@
-# @reactory/class-name
+<h1 align="center">
+  @reactory/class-name
+</h1>
 
 <!-- Badges - 1st row -->
 <p align="center">
