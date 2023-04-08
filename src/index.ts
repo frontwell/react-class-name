@@ -47,7 +47,7 @@ export default function className (...classes: any[]): string | undefined {
     // handle plain objects ----------------------------------------------------
     } else if (entry !== null && typeof entry === 'object') {
       for (const key in entry) {
-        if (hasOwnProperty.call(entry, key) && entry[key]) {
+        if (hasOwnProperty.call(entry, key) && entry[key] === true) {
           classList.push(key)
         }
       }
