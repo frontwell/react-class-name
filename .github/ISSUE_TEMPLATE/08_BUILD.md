@@ -1,6 +1,6 @@
 ---
 name: "\U0001F6E0 Build"
-about: Changes that affect the build system or external dependencies (example scopes: npm, gulp, rollup).
+about: Changes that affect the build system or external dependencies (npm, gulp, rollup, etc.).
 title: 'build(scope?): SHORT, IMPERATIVE, tense description of the change'
 labels: 'enhancement'
 assignees: ''

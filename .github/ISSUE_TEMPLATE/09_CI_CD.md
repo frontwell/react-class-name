@@ -1,6 +1,6 @@
 ---
 name: "\U0001F3D7 CI/CD"
-about: Changes to the CI or CD configuration files and scripts (examples: GitHub Actions, CircleCi).
+about: Changes to the CI or CD configuration files and scripts (GitHub Actions, CircleCI, etc.).
 title: 'ci(scope?): SHORT, IMPERATIVE, tense description of the change'
 labels: 'enhancement'
 assignees: ''
