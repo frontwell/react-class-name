@@ -69,7 +69,13 @@ npm i @reactory/class-name
 
 ## :star: Related
 
+- [@reactory on NPM](https://www.npmjs.com/org/reactory)
+
 ## :beers: Contribution
+
+**Any contribution is ***highly appreciated*****. To get going, check out the [**contribution guidelines**][url-contrib-doc].
+
+***Thank you!***
 
 ## :copyright: License
 
@@ -79,3 +85,4 @@ npm i @reactory/class-name
 
 <!--- URLs -->
 [url-license-doc]: https://github.com/reactory/class-name/blob/main/LICENSE
+[url-contrib-doc]: https://github.com/reactory/class-name/blob/main/.github/CONTRIBUTING.md
