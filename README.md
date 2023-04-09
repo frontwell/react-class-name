@@ -15,15 +15,15 @@
   <!-- Dependency badge -->
   <a href="https://github.com/reactory/class-name/pulls?q=is%3Apr+is%3Aopen+label%3Asecurity"><img src="https://img.shields.io/badge/Dependabot-enabled-49B48A.svg?style=flat-square&logo=dependabot" alt="dependency-badge"></a>
   <!-- License badge -->
-  <a href="https://github.com/reactory/class-name/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-49B48A.svg?style=flat-square&logo=github" alt="license-badge"></a>
+  <a href="https://github.com/reactory/class-name/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-49B48A.svg?style=flat-square&logo=github" alt="license-badge"></a>
 </p>
 
 <!-- Badges - 2nd row -->
 <p align="center">
   <!-- Code style badge -->
-  <a href="https://github.com/standard/ts-standard"><img src="https://img.shields.io/badge/Code-StandardTS-3178C6.svg?style=flat-square&logo=typescript" alt="code-style-badge"></a>
+  <a href="https://www.npmjs.com/package/ts-standard"><img src="https://img.shields.io/badge/Code-StandardTS-3178C6.svg?style=flat-square&logo=typescript" alt="code-style-badge"></a>
   <!-- Commit style badge -->
-  <a href="https://github.com/reactory/class-name/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/Commit-Conventional_Commits-EF7B4D.svg?style=flat-square&logo=git" alt="commit-style-badge"></a>
+  <a href="https://github.com/semantic-release/semantic-release/blob/master/CONTRIBUTING.md#commit-message-guidelines"><img src="https://img.shields.io/badge/Commit-Conventional_Commits-EF7B4D.svg?style=flat-square&logo=git" alt="commit-style-badge"></a>
   <!-- Release workflow badge -->
   <a href="https://semantic-release.gitbook.io/semantic-release"><img src="https://img.shields.io/badge/Release-Semantic_Release-ED2B88.svg?style=flat-square&logo=semanticweb" alt="release-workflow-badge"></a>  
   <!-- Contribution badge -->
