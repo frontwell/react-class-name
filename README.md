@@ -58,6 +58,21 @@ npm i @reactory/class-name
 
 ## :coffee: Usage
 
+```jsx
+import React from 'react'
+import className from '@reactory/class-name'
+
+export default function Container (props) {
+	return (
+		<div
+			className={className([])}			
+		>
+			{props.children}
+		</div>
+	)
+}
+```
+
 ---
 
 ## :computer: API
