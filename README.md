@@ -62,14 +62,50 @@ npm i @reactory/class-name
 import React from 'react'
 import className from '@reactory/class-name'
 
-export default function Container (props) {
-	return (
-		<div
-			className={className([])}			
-		>
-			{props.children}
-		</div>
-	)
+// Regular uses
+export function Container (props) {
+  return (
+    <div
+      className={className(
+        'container',                      // regular CSS class
+        '.fluid',                         // CSS class with a leading dot
+        props.active && 'active',         // conditional CSS class        
+        { shrunken: !props.isStretched }, // conditional CSS class in an object
+        [ props.isMarked && 'marked'   ], // conditional CSS class in an array
+      )}
+    >
+      {props.children}
+    </div>
+  )
+}
+
+/**
+ * Built-in deduplication
+ * 
+ * Classes will be excluded or included from the class list
+ * based on their falsy or truthy values.
+ */
+export function Button (props) {
+  return (
+    <button
+      className={className(
+        // if true, btn-hover class will be added to the class list
+        { 'btn-hover': props.isHover },
+        
+        // ...        
+        
+        // then later, btn-hover will be removed from the class list
+        { 'btn-hover': !props.disabled },
+
+        // ...
+
+        // then again, later will be added again to the class list
+        { 'btn-hover': props.isHoverEnforced },
+      )}
+    >
+      {props.label}
+    </button>
+  )
 }
 ```
 
