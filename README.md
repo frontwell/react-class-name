@@ -15,19 +15,19 @@
   <!-- Dependency badge -->
   <a href="https://github.com/reactory/class-name/pulls?q=is%3Apr+is%3Aopen+label%3Asecurity"><img src="https://img.shields.io/badge/Dependabot-enabled-49B48A.svg?style=flat-square&logo=dependabot" alt="dependency-badge"></a>
   <!-- License badge -->
-  <a href="https://github.com/reactory/class-name/blob/master/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-49B48A.svg?style=flat-square&logo=github" alt="license-badge"></a>
+  <a href="https://github.com/reactory/class-name/blob/main/LICENSE.md"><img src="https://img.shields.io/badge/License-MIT-49B48A.svg?style=flat-square&logo=github" alt="license-badge"></a>
 </p>
 
 <!-- Badges - 2nd row -->
 <p align="center">
   <!-- Code style badge -->
-  <a href="https://standardjs.com"><img src="https://img.shields.io/badge/Code-StandardTS-3178C6.svg?style=flat-square&logo=typescript" alt="code-style-badge"></a>
+  <a href="https://github.com/standard/ts-standard"><img src="https://img.shields.io/badge/Code-StandardTS-3178C6.svg?style=flat-square&logo=typescript" alt="code-style-badge"></a>
   <!-- Commit style badge -->
-  <a href="https://commitizen.github.io/cz-cli"><img src="https://img.shields.io/badge/Commit-Conventional_Commits-EF7B4D.svg?style=flat-square&logo=git" alt="commit-style-badge"></a>
+  <a href="https://github.com/reactory/class-name/blob/main/CONTRIBUTING.md"><img src="https://img.shields.io/badge/Commit-Conventional_Commits-EF7B4D.svg?style=flat-square&logo=git" alt="commit-style-badge"></a>
   <!-- Release workflow badge -->
   <a href="https://semantic-release.gitbook.io/semantic-release"><img src="https://img.shields.io/badge/Release-Semantic_Release-ED2B88.svg?style=flat-square&logo=semanticweb" alt="release-workflow-badge"></a>  
   <!-- Contribution badge -->
-  <a href="https://github.com/reactory/class-name/blob/master/.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-Welcome!-49B48A.svg?style=flat-square&logo=git" alt="contribution-badge"></a>
+  <a href="https://github.com/reactory/class-name/blob/main/.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-Welcome!-49B48A.svg?style=flat-square&logo=git" alt="contribution-badge"></a>
 </p>
 
 ---
@@ -42,7 +42,7 @@
 
 ---
 
-## :thinking: Why?
+## 🤔 Why?
 
 - 1
 - 2
@@ -50,13 +50,13 @@
 - 4
 - 5
 
-## :package: Installation
+## 📦 Installation
 
 ```
 npm i @reactory/class-name
 ```
 
-## :coffee: Usage
+## ☕ Usage
 
 ```jsx
 import React from 'react'
@@ -111,24 +111,24 @@ export function Button (props) {
 
 ---
 
-## :computer: API
+## 💻 API
 
 <!--- <% api --->
 <!--- api %> --->
 
 ---
 
-## :star: Related
+## ⭐ Related
 
 - [@reactory on NPM](https://www.npmjs.com/org/reactory)
 
-## :beers: Contribution
+## 🍻 Contribution
 
 **Any contribution is ***highly appreciated*****. To get going, check out the [**contribution guidelines**][url-contrib-doc].
 
 ***Thank you!***
 
-## :copyright: License
+## ©️ License
 
 [MIT][url-license-doc] @ [Richard King](https://richrdkng.com)
 
