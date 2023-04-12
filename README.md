@@ -11,19 +11,21 @@
   <!-- CI badge -->
   <a href="https://github.com/reactory/class-name/actions?query=workflow%3ACI"><img src="https://github.com/reactory/class-name/workflows/CI/badge.svg" alt="ci-badge"></a>
   <!-- Coverage badge -->
-  <a href="https://codecov.io/gh/reactory/class-name"><img src="https://img.shields.io/codecov/c/github/reactory/class-name?logo=codecov" alt="coverage-badge"></a>
+  <a href="https://codecov.io/gh/reactory/class-name"><img src="https://img.shields.io/codecov/c/github/reactory/class-name?logo=codecov&logoColor=white" alt="coverage-badge"></a>
   <!-- Dependency badge -->
-  <a href="https://github.com/reactory/class-name/pulls?q=is%3Apr+is%3Aopen+label%3Asecurity"><img src="https://img.shields.io/badge/Dependabot-enabled-brightgreen.svg?logo=dependabot" alt="dependency-badge"></a>  
+  <a href="https://github.com/reactory/class-name/pulls?q=is%3Apr+is%3Aopen+label%3Asecurity"><img src="https://img.shields.io/badge/Dependabot-✔-brightgreen.svg?logo=dependabot" alt="dependency-badge"></a>  
+  <!-- Vulnerability badge -->
+  <a href="https://socket.dev/npm/package/@reactory/class-name"><img src="https://socket.dev/api/badge/npm/package/@reactory/class-name" alt="vulnerability-badge"></a>  
 </p>
 
 <!-- Badges - 2nd row -->
 <p align="center">
   <!-- Code style badge -->
-  <a href="https://www.npmjs.com/package/ts-standard"><img src="https://img.shields.io/badge/Code-StandardTS-3178C6.svg?logo=typescript" alt="code-style-badge"></a>
+  <a href="https://www.npmjs.com/package/ts-standard"><img src="https://img.shields.io/badge/Code-TS--Standard-3178C6.svg?logo=typescript&logoColor=white" alt="code-style-badge"></a>
   <!-- Commit style badge -->
-  <a href="https://github.com/semantic-release/semantic-release/blob/master/CONTRIBUTING.md#commit-message-guidelines"><img src="https://img.shields.io/badge/Commit-Conventional_Commits-EF7B4D.svg?logo=git" alt="commit-style-badge"></a>
+  <a href="https://github.com/semantic-release/semantic-release/blob/master/CONTRIBUTING.md#commit-message-guidelines"><img src="https://img.shields.io/badge/Commit-Conventional_Commits-EF7B4D.svg?logo=git&logoColor=white" alt="commit-style-badge"></a>
   <!-- Release workflow badge -->
-  <a href="https://semantic-release.gitbook.io/semantic-release"><img src="https://img.shields.io/badge/Release-Semantic_Release-ED2B88.svg?logo=semanticweb" alt="release-workflow-badge"></a>    
+  <a href="https://semantic-release.gitbook.io/semantic-release"><img src="https://img.shields.io/badge/Release-Semantic_Release-ED2B88.svg?logo=semanticweb&logoColor=white" alt="release-workflow-badge"></a>    
 </p>
 
 <!-- Badges - 3rd row -->
@@ -31,7 +33,7 @@
   <!-- License badge -->
   <a href="https://github.com/reactory/class-name/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-brightgreen.svg?logo=github" alt="license-badge"></a>
   <!-- Contribution badge -->
-  <a href="https://github.com/reactory/class-name/blob/main/.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-Welcome!-brightgreen.svg?logo=git" alt="contribution-badge"></a>
+  <a href="https://github.com/reactory/class-name/blob/main/.github/CONTRIBUTING.md"><img src="https://img.shields.io/badge/PRs-Welcome!-brightgreen.svg?logo=git&logoColor=white" alt="contribution-badge"></a>
 </p>
 
 ---
