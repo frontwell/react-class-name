@@ -13,9 +13,7 @@
   <!-- Coverage badge -->
   <a href="https://codecov.io/gh/reactory/class-name"><img src="https://img.shields.io/codecov/c/github/reactory/class-name?logo=codecov&logoColor=white" alt="coverage-badge"></a>
   <!-- Dependency badge -->
-  <a href="https://github.com/reactory/class-name/pulls?q=is%3Apr+is%3Aopen+label%3Asecurity"><img src="https://img.shields.io/badge/Dependabot-✔-brightgreen.svg?logo=dependabot" alt="dependency-badge"></a>  
-  <!-- Vulnerability badge -->
-  <a href="https://socket.dev/npm/package/@reactory/class-name"><img src="https://socket.dev/api/badge/npm/package/@reactory/class-name" alt="vulnerability-badge"></a>  
+  <a href="https://github.com/reactory/class-name/pulls?q=is%3Apr+is%3Aopen+label%3Asecurity"><img src="https://img.shields.io/badge/Dependabot-✔-brightgreen.svg?logo=dependabot" alt="dependency-badge"></a>
 </p>
 
 <!-- Badges - 2nd row -->
