@@ -7,7 +7,7 @@
 <!-- Badges - 1st row -->
 <p align="center">
   <!-- NPM badge -->
-  <a href="https://www.npmjs.com/package/@reactory/class-name"><img src="https://img.shields.io/npm/v/@reactory/class-name?logo=npm" alt="release-badge"></a>
+  <a href="https://www.npmjs.com/package/@reactory/class-name"><img src="https://img.shields.io/npm/v/@reactory/class-name?color=brightgreen&logo=npm" alt="release-badge"></a>
   <!-- CI badge -->
   <a href="https://github.com/reactory/class-name/actions?query=workflow%3ACI"><img src="https://github.com/reactory/class-name/workflows/CI/badge.svg" alt="ci-badge"></a>
   <!-- Coverage badge -->
