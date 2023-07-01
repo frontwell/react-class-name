@@ -9,6 +9,11 @@ const _hasOwnProperty = Object.hasOwnProperty
 /**
  * @internal
  */
+const _pattern = /\./g
+
+/**
+ * @internal
+ */
 const _parse = (value: any, classList: string[]): void => {
   // handle strings ------------------------------------------------------------
   if (typeof value === 'string') {
@@ -72,7 +77,10 @@ export default function className (...classes: any[]): string | undefined {
     return
   }
 
-  const trimmedList = classList.join(' ').trim()
+  const trimmedList = classList
+    .join(' ')
+    .trim()
+    .replace(_pattern, '')
 
   if (trimmedList.length > 0) {
     return trimmedList

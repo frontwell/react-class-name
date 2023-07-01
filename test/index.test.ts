@@ -247,3 +247,29 @@ describe('misc', () => {
     )).toBe('a b c d e f g h')
   })
 })
+
+describe('handle leading dots', () => {
+  test('simple .class-name', () => {
+    expect(className('.class-name')).toBe('class-name')
+  })
+
+  test('multiple class names with leading dots', () => {
+    expect(className('.a', '.b', '.c')).toBe('a b c')
+  })
+
+  test('multiple nested class names with leading dots', () => {
+    expect(className(
+      [
+        '.a',
+        [
+          '.b'
+        ],
+        [
+          [
+            '.c'
+          ]
+        ]
+      ]
+    )).toBe('a b c')
+  })
+})
