@@ -1,16 +1,47 @@
-const toString = Object.prototype.toString
-const hasOwnProperty = Object.hasOwnProperty
+// TODO: handle leading dots: ".class"
+// TODO: configure - handle returning an empty string (or custom string???), instead of a undefined for no classes
 
-// TODO: handle deep arrays and objects (e.g.: [['string-1', ['string-2']], 'string-3'])
-// TODO: handle deep functions
+/**
+ * @internal
+ */
+const _hasOwnProperty = Object.hasOwnProperty
 
-const parseArrayIntoClassList = (array: any[], classList: string[]): void => {
-  for (const entry of array) {
-    if (typeof entry === 'string') {
-      classList.push(entry)
-    } else if (entry !== null && typeof entry === 'object' && entry.length > 0) {
-      parseArrayIntoClassList(entry, classList)
+/**
+ * @internal
+ */
+const _parse = (value: any, classList: string[]): void => {
+  // handle strings ------------------------------------------------------------
+  if (typeof value === 'string') {
+    classList.push(value)
+
+  // handle objects ------------------------------------------------------------
+  } else if (value !== null && typeof value === 'object') {
+    // handle array-likes
+    if (value.length > 0) {
+      for (const entry of value) {
+        _parse(entry, classList)
+      }
+
+    // handle plain objects
+    } else {
+      for (const key in value) {
+        if (_hasOwnProperty.call(value, key)) {
+          let v = value[key]
+
+          if (typeof v === 'function') {
+            v = v()
+          }
+
+          if (v === true) {
+            classList.push(key)
+          }
+        }
+      }
     }
+
+  // handle functions ----------------------------------------------------------
+  } else if (typeof value === 'function') {
+    _parse(value(), classList)
   }
 }
 
@@ -35,37 +66,7 @@ export default function className (...classes: any[]): string | undefined {
 
   const classList: string[] = []
 
-  for (const entry of classes) {
-    // handle strings ----------------------------------------------------------
-    if (typeof entry === 'string') {
-      classList.push(entry)
-
-    // handle arrays -----------------------------------------------------------
-    } else if (toString.call(entry) === '[object Array]' && entry.length > 0) {
-      // for (const subentry of entry) {
-      //   if (typeof subentry === 'string') {
-      //     classList.push(subentry)
-      //   }
-      // }
-      parseArrayIntoClassList(entry, classList)
-
-    // handle plain objects ----------------------------------------------------
-    } else if (entry !== null && typeof entry === 'object') {
-      for (const key in entry) {
-        if (hasOwnProperty.call(entry, key) && entry[key] === true) {
-          classList.push(key)
-        }
-      }
-
-    // handle functions --------------------------------------------------------
-    } else if (typeof entry === 'function') {
-      const result = entry()
-
-      if (typeof result === 'string') {
-        classList.push(result)
-      }
-    }
-  }
+  _parse(classes, classList)
 
   if (classList.length === 0) {
     return
