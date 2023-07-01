@@ -37,22 +37,20 @@
 ---
 
 <h3 align="center">
-  Manageable, toggleable, conditional CSS classes in React.
+  Manageable, conditional, flexible CSS classes in React.
 </h3>
 
 <p align="center">
-  A simple, lightweight JavaScript <b>utility function</b> for React <br/> to <b>easily manage CSS classes</b> via the <code>className</code> attribute.
+  A simple, lightweight yet powerful JavaScript <b>utility function for React <br/> to easily manage CSS classes</b> via the <code>className</code> attribute.
 </p>
 
 ---
 
 ## 🤔 Why?
 
-- 1
-- 2
-- 3
-- 4
-- 5
+- 1.: simplified and flexible CSS class management in React
+- 2.: multiple, combinable, conditional class names from strings, objects, arrays, and functions
+- 3.: handles deeply nested arrays, objects, and functions
 
 ## 📦 Installation
 
