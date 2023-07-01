@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/reactory/class-name/compare/v2.1.0...v2.2.0) (2023-07-01)
+
+
+### Features
+
+* add handling of class names with leading dots ([b508499](https://github.com/reactory/class-name/commit/b50849954746bd87bbabdd1cbb1d7da8edbdf493))
+
 # [2.1.0](https://github.com/reactory/class-name/compare/v2.0.0...v2.1.0) (2023-07-01)
 
 
