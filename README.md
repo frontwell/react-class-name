@@ -49,8 +49,9 @@
 ## 🤔 Why?
 
 - 1.: simplified and flexible CSS class management in React
-- 2.: multiple, combinable, conditional class names from strings, objects, arrays, and functions
+- 2.: multiple, combinable, conditional, and fault tolerant class names from strings, objects, arrays, and functions
 - 3.: handles deeply nested arrays, objects, and functions
+- 4.: handles class names with leading dots (e.g.: `'.class-name'` => `'class-name'`)
 
 ## 📦 Installation
 
@@ -64,7 +65,7 @@ npm i @reactory/class-name
 import React from 'react'
 import className from '@reactory/class-name'
 
-// Regular uses
+// Regular use cases
 export function Container (props) {
   return (
     <div
