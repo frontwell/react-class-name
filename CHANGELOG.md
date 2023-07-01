@@ -1,3 +1,10 @@
+# [2.1.0](https://github.com/reactory/class-name/compare/v2.0.0...v2.1.0) (2023-07-01)
+
+
+### Features
+
+* add handling of deeply nested arrays and functions ([d270e88](https://github.com/reactory/class-name/commit/d270e8880cb918bf17e4d76c63c8a7e3c421ca2a))
+
 # [2.0.0](https://github.com/reactory/class-name/compare/v1.0.1...v2.0.0) (2023-04-08)
 
 
