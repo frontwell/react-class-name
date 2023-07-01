@@ -51,5 +51,8 @@ typings/
 # IDE directories
 .vscode/
 
+# temp files
+._*
+
 # release directories
-/.dist
+/dist

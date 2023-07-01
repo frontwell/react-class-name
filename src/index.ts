@@ -22,6 +22,11 @@ const parseArrayIntoClassList = (array: any[], classList: string[]): void => {
  *
  * @returns A string containing the processed class(es).
  *          Otherwise undefined, if all and every class is falsy.
+ *
+ * @example Parsing a basic JSON file
+ * ```ts
+ * const a: number = 1;
+ * ```
  */
 export default function className (...classes: any[]): string | undefined {
   if (classes.length === 0) {

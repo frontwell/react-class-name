@@ -14,7 +14,7 @@ module.exports = {
     '@semantic-release/changelog',
     '@semantic-release/github',
     ['@semantic-release/exec', {
-      prepareCmd: 'npm run build',
+      prepareCmd: 'export SEMANTIC_RELEASE_NEXT_RELEASE_VERSION=${nextRelease.version} && npm run build',
     }],
     ['@semantic-release/git', {
       assets: [
@@ -22,7 +22,7 @@ module.exports = {
       ],
     }],
     ['@semantic-release/npm', {
-      pkgRoot: '.dist',
+      pkgRoot: 'dist',
     }],
   ],
 }
